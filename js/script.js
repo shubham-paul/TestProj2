@@ -8,7 +8,7 @@ var MainController = function($scope, $http){
 	}
 	
 	$scope.message = "Hello Shubham!";
-	$http.get("https://api.github.com/users/robconery").then(onUserComplete);
+	$http.get("https://api.github.com/users/shubham-paul").then(onUserComplete);
 	
 	
 	
